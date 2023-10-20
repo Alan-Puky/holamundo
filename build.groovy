@@ -18,7 +18,7 @@ pipeline{
         // Repository where we will upload the artifact
         NEXUS_REPOSITORY = "maven-prueba"
         // Jenkins credential id to authenticate to Nexus OSS
-        NEXUS_CREDENTIAL_ID = "admin"
+        NEXUS_CREDENTIAL_ID = "nexus"
 
         // Workfolder
         //WORKFOLDER = "/usr/jenkins/node_agent/workspace"
